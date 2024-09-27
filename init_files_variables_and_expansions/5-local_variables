@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "Environment Variables:"
+env
+echo -e "\nLocal Variables:"
+declare -p
+echo -e "\nFunctions:"
+declare -F
