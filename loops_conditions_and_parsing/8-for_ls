@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#bashing
+#For ls
 list=$(ls)
 for i in $list
 do
