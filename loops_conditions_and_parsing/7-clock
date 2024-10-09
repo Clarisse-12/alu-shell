@@ -1,15 +1,15 @@
 #!/usr/bin/env bash
-#Clock
-i=0
-f=1
-while [ $i -ne 13 ]
-do 
-echo "Hour:$i"
-((i++))
-while [ $f -ne 60 ]
-do 
-echo "$f"
-((f++))
+#nessted ifs
+hours=0
+minutes=1
+while [ $hours -ne 13 ]
+do
+    echo "Hour: $hours"
+    ((hours++))
+    while [ $minutes -ne 60 ]
+    do
+	echo $minutes
+	((minutes++))
+    done
+    ((minutes = 1))
 done
-((f=1))
-done 
