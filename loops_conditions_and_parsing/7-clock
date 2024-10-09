@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 #Clock
 i=0
-while [ $i -le 12 ]
+while [ $i -ne 13 ]
 do 
 echo "Hour:$i"
 f=1
-while [ $f -le 59 ]
+while [ $f -ne 60 ]
 do 
 echo "$f"
 ((f++))
