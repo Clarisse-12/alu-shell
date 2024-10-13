@@ -1,4 +1,5 @@
-#helloooo
+#!/usr/bin/env bash
+#manage process
 while true
 do
 echo "I am alive!" >/tmp/my_process
